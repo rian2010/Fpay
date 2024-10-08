@@ -1,20 +1,59 @@
-# Welcome to your Expo app 👋
+# Fpay - E-Wallet Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Fpay is a modern e-wallet application that allows users to easily manage their finances, track their expenses, and make secure transactions. With a user-friendly interface and robust features, Fpay aims to enhance the digital payment experience.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Secure Transactions**: Utilize advanced encryption methods to ensure all transactions are safe.
+- **Expense Tracking**: Keep track of your spending with easy-to-read charts and graphs.
+- **User Authentication**: Sign up and log in securely using email or social media accounts.
+- **Transaction History**: View your past transactions, including details and receipts.
+- **Easy Navigation**: Intuitive design for a seamless user experience.
+- **Face ID Payment**: Enable Face ID for quick and secure payments without needing to enter a password.
+- **Multi-Currency Support**: Manage and transact in multiple currencies.
+
+## Technologies Used
+
+- **React Native**: For building the mobile application.
+- **Redux**: For state management.
+- **Firebase**: For authentication and database services.
+- **Tailwind CSS**: For styling the components.
+- **OpenCV**: For implementing face recognition features.
+
+## Installation
+
+To get started with Fpay, follow these steps:
+
+1. **Clone the repository**:
 
    ```bash
-   npm install
+   git clone https://github.com/yourusername/fpay.git
    ```
 
-2. Start the app
+2. Navigate to the project directory
+    ```bash
+    cd fpay
+    ```
 
-   ```bash
+3. Install dependencies
+    ```bash
+    npm install
+    ```
+
+4. Run the app
+    ```bash
     npx expo start
-   ```
+    ```
+
 
 In the output, you'll find options to open the app in a
 
